@@ -1,13 +1,21 @@
-# Topological Adversarial Attacks on Graph Neural Networks via Projected Meta Learning
+# CLOT: Contrastive Learning-Driven and Optimal Transport-Based Training for Simultaneous Clustering
 
 
-This is the complete code for the ProjectedMetaAttach framework to generate poisoning attacks on Graph Neural Networks GNNs. The work is pubished in the following papers: <br />
-([Paper]())
+This is the complete code for the CLOT framework to generate poisoning attacks on Graph Neural Networks GNNs. The work is pubished in the following papers: <br />
+([Paper](https://ieeexplore.ieee.org/abstract/document/10222290))
 
 
 ```
-Will be posted after it gets published 
-
+@INPROCEEDINGS{10222290,
+  author={Aburidi, Mohammed and Marcia, Roummel},
+  booktitle={2023 IEEE International Conference on Image Processing (ICIP)}, 
+  title={CLOT: Contrastive Learning-Driven and Optimal Transport-Based Training for Simultaneous Clustering}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1515-1519},
+  keywords={Training;Representation learning;Clustering methods;Image processing;Clustering algorithms;Self-supervised learning;Artificial neural networks;Contrastive learning;optimal transport;representation learning;clustering;self-supervised learning},
+  doi={10.1109/ICIP49359.2023.10222290}}
 ```
 
  <br />
@@ -18,29 +26,10 @@ maburidi@gmail.com  <br />
 May, 2024. Initial release <br />
 
 
-## Installation
-First install dependencies: 
 
-```python
-!bash install_dependencies.sh
-```
-Also, install DeepRobust 
-```python
-!git clone https://github.com/DSE-MSU/DeepRobust.git
-%cd DeepRobust
-!python setup.py install
-```
+## CLOT Framework:
 
-
-## Train and test 
-Use Pertrubation rate = 10% , on Cora and using MetaAttach to perturb 
-```python
-!python main.py --ptb_rate 0.1 --dataset 'cora' --epochs 250  
-```
-
-## Main algorithm:
-
-<img width="738" alt="image" src="https://github.com/Maburidi/ProjectedMettaAttack/assets/48891624/0c5baf66-b8da-4ee6-8ac7-497e950b57d1">
+<img width="1380" alt="image" src="https://github.com/Maburidi/CLOT/assets/48891624/02f6978b-e9fa-4f4f-9020-d5ed4f84b555">
 
 <br /> 
   <br /> 
@@ -49,13 +38,9 @@ Use Pertrubation rate = 10% , on Cora and using MetaAttach to perturb
 
 ## Main Results: 
 
-<img width="359" alt="image" src="https://github.com/Maburidi/ProjectedMettaAttack/assets/48891624/b11b2f12-d4ef-4022-b2f5-079da8f78d8c">
+<img width="778" alt="image" src="https://github.com/Maburidi/CLOT/assets/48891624/0251d0d4-5743-4d81-b595-ce9042c5efd9">
 
-
-<img width="352" alt="image" src="https://github.com/Maburidi/ProjectedMettaAttack/assets/48891624/b2a889e1-dcff-4d5c-94ea-918da38fc882">
-
-
-<img width="676" alt="image" src="https://github.com/Maburidi/ProjectedMettaAttack/assets/48891624/c9154aa9-1425-4f45-8fa6-57f50726cafc">
+<img width="499" alt="image" src="https://github.com/Maburidi/CLOT/assets/48891624/2feae874-6ddc-42ee-9521-636a400f8e8e">
 
 
  <br /> 
@@ -67,8 +52,27 @@ Use Pertrubation rate = 10% , on Cora and using MetaAttach to perturb
 
 Cite as:
 ```
-Will be poseted once published 
+@INPROCEEDINGS{10222290,
+  author={Aburidi, Mohammed and Marcia, Roummel},
+  booktitle={2023 IEEE International Conference on Image Processing (ICIP)}, 
+  title={CLOT: Contrastive Learning-Driven and Optimal Transport-Based Training for Simultaneous Clustering}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1515-1519},
+  keywords={Training;Representation learning;Clustering methods;Image processing;Clustering algorithms;Self-supervised learning;Artificial neural networks;Contrastive learning;optimal transport;representation learning;clustering;self-supervised learning},
+  doi={10.1109/ICIP49359.2023.10222290}}
 
+@INPROCEEDINGS{10459798,
+  author={Aburidi, Mohammed and Marcia, Roummel},
+  booktitle={2023 International Conference on Machine Learning and Applications (ICMLA)}, 
+  title={Optimal Transport and Contrastive-Based Clustering for Annotation-Free Tissue Analysis in Histopathology Images}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={301-307},
+  keywords={Training;Representation learning;Deep learning;Histopathology;Clustering algorithms;Lung;Manuals;Clustering;Optimal Transport;Contrastive Learning;Tissue Recognition;Digital Pathology;WSIs},
+  doi={10.1109/ICMLA58977.2023.00049}}
 ```
 
 
